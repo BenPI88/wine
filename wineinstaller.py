@@ -22,7 +22,7 @@ while not osver == "1" or osver == "2" or osver == "3":
   print("2: Bullseye")
   print("3: Bookworm")
   osver = input("Item #: ")
-if osver == "1:"
+if osver == "1:":
   os.system("sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/buster/winehq-buster.sources && sudo apt update && sudo apt install --install-recommends winehq-stable")
 if osver == "2":
   os.system("sudo wget -nc -P /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/debian/dists/bullseye/winehq-bullseye.sources && sudo apt update && sudo apt install --install-recommends winehq-stable")
